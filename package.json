@@ -1,0 +1,35 @@
+{
+  "name": "aitho-job-bot",
+  "version": "1.0.0",
+  "description": "This project is an automated job application analysis and reporting tool, designed to streamline the process of reviewing job postings. It utilizes AI to extract key information, analyze job requirements against user-defined rules, and generate comprehensive reports, complete with a web-based dashboard for visualization.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdt0ny/aitho-job-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdt0ny/aitho-job-bot/issues"
+  },
+  "homepage": "https://github.com/jdt0ny/aitho-job-bot#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "canvas": "^3.2.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "pdfkit": "^0.17.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^25.0.0",
+    "@types/pdfkit": "^0.17.4",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "totalJobs": 6,
+    "totalIssues": 6,
+    "highSeverity": 0,
+    "generatedAt": "2025-12-10T21:55:32.389Z"
+  },
+  "jobs": [
+    {
+      "job": {
+        "title": "Senior Full Stack Developer",
+        "link": "https://aitho.teamtailor.com/jobs/6446358-senior-full-stack-developer"
+      },
+      "issues": [
+        {
+          "code": "short_description",
+          "severity": "low",
+          "message": "Description appears short or missing."
+        }
+      ]
+    },
+    {
+      "job": {
+        "title": "Intermediate Full Stack Developer",
+        "link": "https://aitho.teamtailor.com/jobs/6446347-intermediate-full-stack-developer"
+      },
+      "issues": [
+        {
+          "code": "short_description",
+          "severity": "low",
+          "message": "Description appears short or missing."
+        }
+      ]
+    },
+    {
+      "job": {
+        "title": "Expert Java Developer",
+        "link": "https://aitho.teamtailor.com/jobs/6446337-expert-java-developer"
+      },
+      "issues": [
+        {
+          "code": "short_description",
+          "severity": "low",
+          "message": "Description appears short or missing."
+        }
+      ]
+    },
+    {
+      "job": {
+        "title": "Senior Java Developer",
+        "link": "https://aitho.teamtailor.com/jobs/6446327-senior-java-developer"
+      },
+      "issues": [
+        {
+          "code": "short_description",
+          "severity": "low",
+          "message": "Description appears short or missing."
+        }
+      ]
+    },
+    {
+      "job": {
+        "title": "Intermediate Java Developer",
+        "link": "https://aitho.teamtailor.com/jobs/6446313-intermediate-java-developer"
+      },
+      "issues": [
+        {
+          "code": "short_description",
+          "severity": "low",
+          "message": "Description appears short or missing."
+        }
+      ]
+    },
+    {
+      "job": {
+        "title": "General Application",
+        "link": "https://aitho.teamtailor.com/jobs/5110109-general-application"
+      },
+      "issues": [
+        {
+          "code": "short_description",
+          "severity": "low",
+          "message": "Description appears short or missing."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #212121;
+}
+
+.header {
+  background: #0d1b2a;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.card {
+  background: #fff;
+  margin: 25px auto;
+  padding: 25px;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: #0d1b2a;
+}
+
+.progress-bar {
+  background: #e5e5e5;
+  border-radius: 10px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress {
+  background: #0077b6;
+  height: 100%;
+  color: #fff;
+  line-height: 28px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.roadmap {
+  list-style: none;
+  padding: 0;
+}
+
+.roadmap li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.roadmap li.done {
+  color: #2a8f55;
+  font-weight: bold;
+}
+
+.roadmap li.active {
+  color: #0077b6;
+  font-weight: bold;
+}
+
+.changelog {
+  list-style: none;
+  padding: 0;
+}
+
+.changelog li {
+  padding: 8px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #ececec;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+}
+.footer a {
+  color: #0077b6;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Dark mode */
+body.dark {
+  background: #0f0f0f;
+  color: #eaeaea;
+}
+
+body.dark .card {
+  background: #151515;
+  color: #eaeaea;
+}
+
+.toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Donut chart */
+.donut-ring {
+  fill: transparent;
+  stroke: #dcdcdc;
+  stroke-width: 12;
+}
+.donut-ring-progress {
+  fill: transparent;
+  stroke: #0077b6;
+  stroke-width: 12;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+.donut-label {
+  font-size: 24px;
+  fill: #0077b6;
+  font-weight: bold;
+}
+
+/* Line chart */
+#lineChart {
+  margin-top: 25px;
+}
+body.dark .header {
+  background: #1a1a1a;
+}
+body.dark .subtitle {
+  color: #ccc;
+}
+body.dark .progress-bar {
+  background: #333;
+}
+body.dark .progress {
+  background: #00aaff;
+}
+body.dark .note {
+  color: #aaa;
+}
+body.dark .roadmap li {
+  border-bottom: 1px solid #333;
+}
+body.dark .changelog li {
+  border-bottom: 1px solid #333;
+}
+body.dark .footer {
+  color: #aaa;
+}
+body.dark .footer a {
+  color: #00aaff;
+}       
