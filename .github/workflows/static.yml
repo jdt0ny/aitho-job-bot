@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Dashboard – AITHO Automation</title>
+  <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <button id="modeToggle" class="toggle">🌓</button>
+</head>
+
+<body>
+  <header class="header">
+    <h1>AITHO Automation Project</h1>
+    <p class="subtitle">Progress Dashboard & Technical Roadmap</p>
+  </header>
+
+  <section class="card">
+    <h2>Stato del Progetto</h2>
+    <div class="progress-bar">
+      <div class="progress" style="width: 58%">58%</div>
+    </div>
+    <p class="note">Aggiornato il: 14/12/2025</p>
+  </section>
+
+  <section class="card">
+    <h2>Roadmap</h2>
+
+    <ul class="roadmap">
+      <li class="done">Analisi struttura HR AITHO</li>
+      <li class="done">Bozza flusso automazione candidature</li>
+      <li class="done">Setup workflow n8n + test locale</li>
+      <li class="active">Integrazione sistema email automatizzato</li>
+      <li>Generazione cover letter personalizzate</li>
+      <li>Dashboard finale + demo video</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Changelog</h2>
+    <ul class="changelog">
+      <li><strong>[14/12]</strong> Aggiunto monitor candidature + work in progress email engine</li>
+      <li><strong>[13/12]</strong> Creato primo workflow n8n per parsing CV</li>
+      <li><strong>[12/12]</strong> Strutturato repository + documentazione iniziale</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Tecnologie Utilizzate</h2>
+    <ul class="technologies">
+      <li>n8n (Workflow Automation)</li>
+      <li>Node.js (Backend Scripting)</li>
+      <li>IMAP/SMTP (Email Handling)</li>
+      <li>JavaScript (Logica Personalizzata)</li>
+      <li>HTML/CSS (Dashboard)</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <div class="donut-chart-wrapper">
+  <svg width="160" height="160">
+    <circle class="donut-ring" cx="80" cy="80" r="70"></circle>
+    <circle class="donut-ring-progress" cx="80" cy="80" r="70"></circle>
+    <text class="donut-label" x="50%" y="50%" text-anchor="middle" dy=".3em">0%</text>
+  </svg>
+    </div>
+    </section>
+
+  <section class="card">
+    <h2>Obiettivo del Progetto</h2>
+    <p>
+      Sviluppo di un sistema automatizzato per la gestione delle candidature,
+      ottimizzato per gli stack tecnologici moderni utilizzati in AITHO.
+      Il sistema riduce il carico manuale, velocizza lo screening,
+      e produce output personalizzati come email, cover letter e allegati.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Screenshots del Workflow</h2>
+    <p>Saranno caricati qui gli screenshot del flusso n8n una volta pronti.</p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 – Automation Project for AITHO</p>
+  </footer>
+
+</body>
+</html>
