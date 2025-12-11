@@ -67,6 +67,20 @@ function initLineChart() {
 }
 
 initLineChart();
+document.addEventListener("DOMContentLoaded", () => {
+  const progressBar = document.getElementById("progressBar");
+  let progress = 0;
+
+  const interval = setInterval(() => {
+    if (progress >= 70) {  // esempio: 70% completato
+      clearInterval(interval);
+    } else {
+      progress += 1;
+      progressBar.style.width = progress + "%";
+    }
+  }, 60);
+});
+
 
 
 // =============================
