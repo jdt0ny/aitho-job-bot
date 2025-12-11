@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project Dashboard – AITHO Automation</title>
   <link rel="stylesheet" href="styles.css" />
-    <script defer src="script.js"></script>
-    <button id="modeToggle" class="toggle">🌓</button>
+  <script defer src="script.js"></script>
+  <button id="modeToggle" class="toggle">🌓</button>
 </head>
 
-<div class="progress-container">
-  <div class="progress-bar" id="progressBar"></div>
-</div>
-
-
 <body>
+  <!-- 🔥 Progress Bar Dinamica -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
   <header class="header">
     <h1>AITHO Automation Project</h1>
     <p class="subtitle">Progress Dashboard & Technical Roadmap</p>
@@ -22,9 +22,7 @@
 
   <section class="card">
     <h2>Stato del Progetto</h2>
-    <div class="progress-bar">
-      <div class="progress" style="width: 58%">58%</div>
-    </div>
+    <!-- 🔥 Tolta la progress bar statica -->
     <p class="note">Aggiornato il: 14/12/2025</p>
   </section>
 
@@ -63,13 +61,13 @@
 
   <section class="card">
     <div class="donut-chart-wrapper">
-  <svg width="160" height="160">
-    <circle class="donut-ring" cx="80" cy="80" r="70"></circle>
-    <circle class="donut-ring-progress" cx="80" cy="80" r="70"></circle>
-    <text class="donut-label" x="50%" y="50%" text-anchor="middle" dy=".3em">0%</text>
-  </svg>
+      <svg width="160" height="160">
+        <circle class="donut-ring" cx="80" cy="80" r="70"></circle>
+        <circle class="donut-ring-progress" cx="80" cy="80" r="70"></circle>
+        <text class="donut-label" x="50%" y="50%" text-anchor="middle" dy=".3em">0%</text>
+      </svg>
     </div>
-    </section>
+  </section>
 
   <section class="card">
     <h2>Obiettivo del Progetto</h2>
@@ -83,14 +81,11 @@
 
   <section class="card">
     <h2>Screenshots del Workflow</h2>
-    <p>Carica qui gli screenshot del flusso n8n una volta pronti.</p>
+    <p>Screenshot qui del flusso n8n una volta pronti.</p>
   </section>
 
   <footer class="footer">
     <p>© 2026 – Automation Project for AITHO</p>
   </footer>
-
 </body>
-<script src="script.js"></script>
-
 </html>
